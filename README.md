@@ -4,7 +4,16 @@ Constraint based automatic course routine generation system. Only a limited numb
 
 For the time being only two branches(CSE, ECE), two classrooms for theory and 2 for lab were considered. We can extend it in future.
 
-Extraxt the database class_routine_management_system.sql which is the class routine for IIIT Manipur or you may create a new database with the following details.
+Extraxt/Import the database class_routine_management_system.sql which is the class routine for IIIT Manipur with the help of below command:
+
+First create a new blank database in the MySQL shell to serve as a destination for your data.
+
+CREATE DATABASE db;
+Then log out of the MySQL shell and type the following on the command line:
+
+mysql -u [username] -p newdatabase < class_routine_management_system.sql
+
+or you may create a new database with the following details.
 
 The name of the database should be Routine and the tables in the database are:
 
