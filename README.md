@@ -9,6 +9,7 @@ Extraxt/Import the database class_routine_management_system.sql which is the cla
 First create a new blank database in the MySQL shell to serve as a destination for your data.
 
 CREATE DATABASE db;
+
 Then log out of the MySQL shell and type the following on the command line:
 
 mysql -u [username] -p newdatabase < class_routine_management_system.sql
